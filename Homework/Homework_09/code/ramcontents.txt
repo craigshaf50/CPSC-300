@@ -1,0 +1,16 @@
+10 lui $t0 0x0
+11 ori $t0 $t0 0x40
+12 addi $t1 $t1 0x80
+13 add $s0 $t0 $t1
+14 sub $s1 $s0 $t1
+15 and $s2 $s0 $t1
+16 or $s3 $t1 $t0
+17 andi $s4 $s3 0x87
+18 sll $t5 $t0 2
+19 addi $s5 $s5 0x15
+20 srl $t4 $s5 2
+21 slt $t6 $s0 $t5
+22 slti $t7 $t0 0x46
+23 halt 0
+
+
